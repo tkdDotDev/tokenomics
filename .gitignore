@@ -8,3 +8,14 @@ typechain-types
 # Hardhat files
 cache
 artifacts
+
+# Dependencies and generated files
+node_modules/
+artifacts/
+cache/
+coverage/
+
+# Local secrets
+.env
+.env.*
+!.env.example
